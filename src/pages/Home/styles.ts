@@ -7,6 +7,13 @@ const Container = styled.div`
   align-items: center;
 `;
 
+const Container2 = styled.div`
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+`;
+
 const Content = styled.div`
   flex-direction: column;
   background: var(--white);
@@ -42,6 +49,7 @@ const UserInfoContent = styled.div`
 
 export {
   Container,
+  Container2,
   UserInfoArea,
   UserInfoContent,
   Content,
